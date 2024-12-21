@@ -1,0 +1,73 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Alice"
+    },
+    {
+      "id": 2,
+      "name": "Bob"
+    },
+    {
+      "id": 3,
+      "name": "Charlie"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Wildflower Honey",
+      "description": "Pure wildflower honey with a rich, floral taste.",
+      "price": 12.99
+    },
+    {
+      "id": 2,
+      "name": "Clover Honey",
+      "description": "Smooth and sweet clover honey, perfect for teas and baking.",
+      "price": 9.99
+    },
+    {
+      "id": 3,
+      "name": "Manuka Honey",
+      "description": "Premium Manuka honey with exceptional health benefits.",
+      "price": 29.99
+    }
+  ],
+  "transactions": [
+    {
+      "id": 1,
+      "account_id": 1,
+      "amount": 200.00,
+      "transaction_date": "2024-12-01T10:00:00Z"
+    },
+    {
+      "id": 2,
+      "account_id": 2,
+      "amount": -50.00,
+      "transaction_date": "2024-12-10T14:00:00Z"
+    },
+    {
+      "id": 3,
+      "account_id": 3,
+      "amount": 120.00,
+      "transaction_date": "2024-12-15T09:30:00Z"
+    }
+  ],
+  "accounts": [
+    {
+      "id": 1,
+      "user_id": 1,
+      "balance": 500.00
+    },
+    {
+      "id": 2,
+      "user_id": 2,
+      "balance": 1500.00
+    },
+    {
+      "id": 3,
+      "user_id": 3,
+      "balance": 1000.00
+    }
+  ]
+}
